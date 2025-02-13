@@ -10,7 +10,7 @@ export const WidgetDemo = forwardRef((props, ref) => {
       widgetInstance.current = window.initializeDiroWidget(
         containerRef.current,
         {
-          targetUrl: "https://verify.diro.io/?buttonid=O.IN-83BAMy-OHCG-sandbox&trackid=",
+          targetUrl: "https://verification.diro.io/?buttonid=O.IN-83BAMy-b2wA-sandbox&trackid=",
           containerStyles: {
             backgroundColor: "#f0f0f0",
             padding: "20px",
