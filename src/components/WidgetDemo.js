@@ -1,7 +1,8 @@
 import React, { useEffect, useRef, forwardRef, useImperativeHandle } from 'react';
+import '../stylesSelectLink.css';
 
 export const WidgetDemo = forwardRef((props, ref) => {
-  const containerRef = useRef(null);
+  const containerRef = useRef('diro-widget-container');
   const widgetInstance = useRef(null);
 
   useEffect(() => {
@@ -10,19 +11,22 @@ export const WidgetDemo = forwardRef((props, ref) => {
       widgetInstance.current = window.initializeDiroWidget(
         containerRef.current,
         {
-          targetUrl: "https://verification.diro.io/?buttonid=O.IN-83BAMy-b2wA-sandbox&trackid=",
+          targetUrl: "https://verification.diro.io/?buttonid=O.IN-83BAMy-p1uT&trackid=",
+          buttonText: "Start verification",
+          allowRedirection:true,
+          
+          openWith: "newtab",
           containerStyles: {
             backgroundColor: "#f0f0f0",
             padding: "20px",
             borderRadius: "10px",
-            width: "350px",
-            // height: "300px"
           },
           buttonStyles: {
-            fontSize: "18px",
-            borderRadius: "8px",
+            fontSize: "16px",
+            borderRadius: "12px",
             width: "300px",
-          }
+            // padding:"100px"
+          },
         }
       );
     }
