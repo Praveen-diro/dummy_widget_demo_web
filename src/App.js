@@ -21,10 +21,10 @@ function App() {
             <li><a href="#topics">AI/ML</a></li>
             <li><a href="#podcasts">Web3</a></li>
           </ul>
-          <div className="auth-buttons">
+          {/* <div className="auth-buttons">
             <button className="login-btn">Login</button>
             <button className="subscribe-btn">Subscribe</button>
-          </div>
+          </div> */}
         </nav>
       </header>
 
