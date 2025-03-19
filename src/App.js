@@ -117,7 +117,7 @@ function App() {
             </article>
           </div>
         </main>
-        
+
         <aside className="sidebar">
           <div className="widget-card ">
             <h3>Verify Your Identity</h3>

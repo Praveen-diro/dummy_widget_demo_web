@@ -11,7 +11,7 @@ export const WidgetDemo = forwardRef((props, ref) => {
       widgetInstance.current = window.initializeDiroWidget(
         containerRef.current,
         {
-          targetUrl: "https://verification.diro.io/?buttonid=O.IN-83BAMy-p1uT&trackid=",
+          targetUrl: "https://verification.diro.io/?buttonid=O.IN-oBdsIx-PrbQ&trackid=",
           buttonText: "Start verification",
           allowRedirection:true,
           

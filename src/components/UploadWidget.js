@@ -7,7 +7,7 @@ export const UploadWidget = forwardRef((props, ref) => {
     // Create the widget div with required attributes
     const widgetDiv = document.createElement('div');
     widgetDiv.id = 'reactWidget';
-    widgetDiv.setAttribute('data-buttonid', 'O.IN-ZGIvIV-Z5Yq');
+    widgetDiv.setAttribute('data-buttonid', 'O.IN-oBdsIx-HGWM');
     widgetDiv.setAttribute('data-trackid', 'abc');
     widgetDiv.setAttribute('wrapper', JSON.stringify({
       height: "260px",
