@@ -11,10 +11,10 @@ export const WidgetDemo = forwardRef((props, ref) => {
       widgetInstance.current = window.initializeDiroWidget(
         containerRef.current,
         {
-          targetUrl: "https://verification.diro.io/?buttonid=O.IN-oBdsIx-PrbQ&trackid=",
+          targetUrl: "https://verification.diro.live/?buttonid=O.DD-KORpuZ-f9DU-sandbox&trackid=",
           buttonText: "Start verification",
-          allowRedirection:true,
-          
+          allowRedirection: true,
+
           openWith: "newtab",
           containerStyles: {
             backgroundColor: "#f0f0f0",
@@ -41,10 +41,10 @@ export const WidgetDemo = forwardRef((props, ref) => {
   }));
 
   return (
-    <div 
-      className="diro-widget" 
-      id="diro-widget-container" 
-      ref={containerRef} 
+    <div
+      className="diro-widget"
+      id="diro-widget-container"
+      ref={containerRef}
     />
   );
 });
