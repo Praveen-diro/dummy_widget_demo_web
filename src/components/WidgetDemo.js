@@ -1,5 +1,5 @@
 import React, { useEffect, useRef, forwardRef, useImperativeHandle } from 'react';
-import '../stylesSelectLink.css';
+// import '../stylesSelectLink.css';
 
 export const WidgetDemo = forwardRef((props, ref) => {
   const containerRef = useRef('diro-widget-container');
