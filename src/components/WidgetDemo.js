@@ -21,12 +21,12 @@ export const WidgetDemo = forwardRef((props, ref) => {
             padding: "20px",
             borderRadius: "10px",
           },
-          buttonStyles: {
-            fontSize: "16px",
-            borderRadius: "12px",
-            width: "300px",
-            // padding:"100px"
-          },
+          // buttonStyles: {
+          //   fontSize: "16px",
+          //   borderRadius: "12px",
+          //   width: "300px",
+          //   // padding:"100px"
+          // },
         }
       );
     }
