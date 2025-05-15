@@ -12,14 +12,14 @@ export const WidgetDemo = forwardRef((props, ref) => {
         containerRef.current,
         {
           targetUrl: "https://verification.diro.live/?buttonid=O.DD-KORpuZ-f9DU-sandbox&trackid=",
-          buttonText: "Start verification",
           allowRedirection: true,
 
           openWith: "newtab",
           containerStyles: {
             backgroundColor: "#f0f0f0",
-            padding: "20px",
+            padding: "10px",
             borderRadius: "10px",
+            width: "300px",
           },
           // buttonStyles: {
           //   fontSize: "16px",

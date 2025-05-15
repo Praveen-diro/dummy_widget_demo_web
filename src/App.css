@@ -54,14 +54,14 @@
 
 /* Content layout */
 .content-container {
-  width: 100%;
-  max-width: 1200px;
+  width: 90%;
+  max-width: 2100px;
   margin: 0 auto;
   padding: 0 1rem;
   box-sizing: border-box;
   display: grid;
   grid-template-columns: 1fr 350px;
-  gap: 2rem;
+  gap: 1rem;
   flex-grow: 1;
 }
 
